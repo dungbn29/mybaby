@@ -1,0 +1,49 @@
+
+body {
+    background: #fff;
+    line-height: 2;
+}
+
+.c {
+    color: #fff;
+    opacity: 0
+    
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  /*animation-name: fadeIn;*/
+  animation: fadeIn 1s both;
+}
+
+.text{
+  font-size: 108px;
+    /* padding: 20px 0; */
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.content {
+    font-size: 108px;
+    /* padding: 20px 0; */
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.animated {
+  /*animation-duration: 1s;*/
+   /*animation-fill-mode: both;*/
+}
